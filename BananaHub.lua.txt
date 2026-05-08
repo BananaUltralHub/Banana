@@ -10,7 +10,6 @@ local VirtualUser = game:GetService("VirtualUser")
 local Lighting = game:GetService("Lighting")
 local CollectionService = game:GetService("CollectionService")
 local Stats = game:GetService("Stats")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Remotes = ReplicatedStorage:WaitForChild("Remotes")
 local CommF_Remote = Remotes:WaitForChild("CommF_")
 
@@ -76,9 +75,9 @@ end
 
 -- WORLD CHECK
 local placeId = game.PlaceId
-local World1 = game.PlaceId == 2753915549 or 85211729168715 or 73902483975735
-local World2 = game.PlaceId == 4442272183 or 79091703265657 or 73902483975735
-local World3 = game.PlaceId == 7449423635 or 85211729168715 or 73902483975735
+local World1 = game.PlaceId == 2753915549 or game.PlaceId == 85211729168715 or game.PlaceId == 73902483975735
+local World2 = game.PlaceId == 4442272183 or game.PlaceId == 79091703265657 or game.PlaceId == 73902483975735
+local World3 = game.PlaceId == 7449423635 or game.PlaceId == 85211729168715 or game.PlaceId == 73902483975735
 local Sea = World1 or World2 or World3
 
 -- GAME REFERENCES (giữ từ script cũ)
