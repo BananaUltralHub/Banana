@@ -1399,7 +1399,7 @@ QuestB = function()
 				PosQ = CFrame.new(-1580.04663, 6.35000277, -2986.47534, -0.515037298, 0, -0.857167721, 0, 1, 0, 0.857167721, 0, -0.515037298)
 				PosM = CFrame.new(-1292.838134765625, 56.380882263183594, -3339.031494140625)
 			elseif a == 300 or a <= 324 then
-				Boubty = false;
+				Bounty = false;
 				Mon = "Military Soldier"
 				Qdata = 1;
 				Qname = "MagmaQuest"
