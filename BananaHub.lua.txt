@@ -34,8 +34,8 @@ local JobToolAbilities = ReplicatedStorage:WaitForChild("Modules"):WaitForChild(
 local GetWaterHeightAtLocation = require(ReplicatedStorage.Util.GetWaterHeightAtLocation)
 
 -- WEBHOOK
-local reportWebhookURL = "https://discord.com/api/webhooks/1470044798202151134/4uLMDv_QBhalhhsoo9XnNEBmnLKOQ4xIhJgO91tTBBDwkZ3_eyojKnHWrmtfLoLHH1sZ"
-local ideasWebhookURL = "https://discord.com/api/webhooks/1470044798202151134/4uLMDv_QBhalhhsoo9XnNEBmnLKOQ4xIhJgO91tTBBDwkZ3_eyojKnHWrmtfLoLHH1sZ"
+local reportWebhookURL = "https://discord.com/api/webhooks/1502200633934221432/VxIyP5MRW41T-QrJoCP1fpB-xExUoRyolPVc9knrZfsMXq8VIvcQOswVe7UtQgmgV4GR"
+local ideasWebhookURL = "https://discord.com/api/webhooks/1502200633934221432/VxIyP5MRW41T-QrJoCP1fpB-xExUoRyolPVc9knrZfsMXq8VIvcQOswVe7UtQgmgV4GR"
 
 -- EXPLOIT
 local executor = getexecutorname() or identifyexecutor()
