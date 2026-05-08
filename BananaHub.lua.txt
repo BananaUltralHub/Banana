@@ -2694,7 +2694,7 @@ end
 Library = loadstring(game:HttpGet("https://pastefy.app/vgSGtrbP/raw"))()
 
 Window = Library:CreateWindow({
-    Title = "Banana Cat Hub",
+    Title = "Banana Ultral Hub",
     Subtitle = "- Blox Fruit",
     Image = "rbxassetid://93534953229327"
 })
